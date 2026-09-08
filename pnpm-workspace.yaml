@@ -1,0 +1,21 @@
+onlyBuiltDependencies:
+  - '@tailwindcss/oxide'
+  - '@vercel/speed-insights'
+  - sharp
+  - unrs-resolver
+
+overrides:
+  tar@=7.5.1: '>=7.5.2'
+  next@>=16.0.0-beta.0 <16.0.9: '>=16.0.9'
+  tar@<=7.5.3: '>=7.5.4'
+  next@>=15.6.0-canary.0 <16.1.5: '>=16.1.5'
+  next@>=16.0.0-beta.0 <16.0.11: '>=16.0.11'
+  tar@<7.5.7: '>=7.5.7'
+  js-yaml@>=4.0.0 <4.1.1: '>=4.1.1'
+  next@>=16.0.0-beta.0 <16.1.5: '>=16.1.5'
+  mdast-util-to-hast@>=13.0.0 <13.2.1: '>=13.2.1'
+  axios@>=1.0.0 <=1.13.4: '>=1.13.5'
+  tar@<=7.5.2: '>=7.5.3'
+  minimatch@<10.2.1: '>=10.2.1'
+  tar@<7.5.8: '>=7.5.8'
+  ajv@<6.14.0: '>=6.14.0'

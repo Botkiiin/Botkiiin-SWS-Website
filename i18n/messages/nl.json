@@ -1,0 +1,408 @@
+{
+  "LanguageDetection": {
+    "title": "Taalsuggestie",
+    "description": "We hebben gemerkt dat uw browsertaal afwijkt van de huidige sitetaal. U kunt op elk moment van taal wisselen.",
+    "countdown": "Sluit over {countdown} seconden",
+    "switchTo": "Overschakelen naar"
+  },
+  "Header": {
+    "links": [
+      {
+        "name": "Home",
+        "href": "/"
+      },
+      {
+        "name": "Diensten",
+        "href": "/services"
+      },
+      {
+        "name": "Over ons",
+        "href": "/about"
+      },
+      {
+        "name": "Vertrouwen",
+        "href": "/trust"
+      },
+      {
+        "name": "Vacatures",
+        "href": "/vacancies"
+      }
+    ],
+    "incentive": "Contacten"
+  },
+  "Footer": {
+    "Copyright": "Auteursrecht © {year} {name} Alle rechten voorbehouden.",
+    "PrivacyPolicy": "Privacybeleid",
+    "TermsOfService": "Servicevoorwaarden",
+    "Contact": {
+      "title": "Contactgegevens"
+    },
+    "Links": {
+      "groups": [
+        {
+          "title": "Languages",
+          "links": [
+            {
+              "href": "/en",
+              "name": "English"
+            },
+            {
+              "href": "/nl",
+              "name": "Nederlands"
+            }
+          ]
+        },
+        {
+          "title": "Navigatie",
+          "links": [
+            {
+              "href": "/",
+              "name": "Home"
+            },
+            {
+              "href": "/services",
+              "name": "Diensten"
+            },
+            {
+              "href": "/trust",
+              "name": "Vertrouwen"
+            },
+            {
+              "href": "/about",
+              "name": "Over ons"
+            },
+            {
+              "href": "/contacts",
+              "name": "Contact"
+            },
+            {
+              "href": "/vacancies",
+              "name": "Vacatures"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Home": {
+    "title": "SWS",
+    "tagLine": "Slimme Werkoplossingen & Services",
+    "description": "Bent u op zoek naar een betrouwbaar en professioneel bouwbedrijf in Nederland? Bij Slimme Werkoplossingen & Services garanderen wij kwaliteit, duurzaamheid en vakmanschap.",
+    "our": "Onze",
+    "services": "Diensten",
+    "windowRepairTitle": "Raamreparatie",
+    "windowRepairDescription": "Restauratie en verbetering van kozijnen en glas.",
+    "paintingTitle": "Schilderwerk",
+    "paintingDescription": "Professioneel schilderwerk binnen en buiten voor een frisse uitstraling.",
+    "technicalPainting": "Vakschilderwerk van huizen en bedrijven",
+    "facadePainting": "Schilderen van de gevel",
+    "woodworkingTitle": "Houtbewerking",
+    "woodworkingDescription": "Individuele oplossingen in timmerwerk en reparatie van houten constructies.",
+    "learnMore": "Meer leren",
+    "viewAllServices": "Alle Diensten Bekijken",
+    "mainServices": "Hoofddiensten",
+    "keyFeatures": "Belangrijkste Kenmerken",
+    "workProcess": "Werkproces",
+    "getConsultation": "Advies Aanvragen",
+    "windowFrameRepair": "Kozijnreparatie en restauratie",
+    "glassReplacement": "Glasvervanging en installatie",
+    "sealingWork": "Kit- en dichtingswerk",
+    "interiorPainting": "Binnenschilderwerk en decoratie",
+    "customFurniture": "Op maat gemaakte meubels",
+    "doorInstallation": "Deurinstallatie en reparatie",
+    "flooringWork": "Vloerinstallatie en restauratie",
+    "qualityMaterials": "Hoogwaardige materialen",
+    "fastService": "Snelle en betrouwbare service",
+    "warranty": "Werkgarantie inbegrepen",
+    "professionalTeam": "Professioneel ervaren team",
+    "ecoFriendlyPaints": "Milieuvriendelijke verven",
+    "colorConsultation": "Kleuradvies",
+    "surfacePreparation": "Professionele ondergrondvoorbereiding",
+    "longLastingFinish": "Duurzame afwerking",
+    "sustainableMaterials": "Duurzame houtmaterialen",
+    "customDesign": "Op maat gemaakte ontwerpen",
+    "precisionWork": "Precisie vakmanschap",
+    "durability": "Duurzame constructie",
+    "initialInspection": "Initiële inspectie en beoordeling",
+    "quotationPreparation": "Offerte voorbereiding",
+    "workExecution": "Professionele werkuitvoering",
+    "finalCheck": "Eindkwaliteitscontrole",
+    "surfaceAssessment": "Ondergrond conditie beoordeling",
+    "colorSelection": "Kleurselectie en advies",
+    "preparation": "Ondergrondvoorbereiding",
+    "painting": "Professionele verftoepassing",
+    "qualityControl": "Kwaliteitscontrole en afwerking",
+    "designConsultation": "Ontwerp consultatie en planning",
+    "materialSelection": "Materiaalselectie",
+    "crafting": "Precisie bewerking",
+    "installation": "Professionele installatie",
+    "finishing": "Eindafwerking en inspectie",
+    "detailedServicesTitle": "Gedetailleerde Informatie Over Onze Diensten",
+
+    "aboutText1": "Bij Slimme Werkoplossingen & Services zijn wij gespecialiseerd in kwalitatief bouw- en renovatiewerk. Met jarenlange ervaring en een passie voor vakmanschap bieden wij duurzame en esthetische oplossingen voor zowel particuliere als zakelijke klanten.",
+    "aboutText2": "Wij staan voor betrouwbaarheid, precisie en klanttevredenheid. Of het nu gaat om een kleine reparatie of een grootschalig project, wij garanderen een perfecte uitvoering en een hoogwaardig eindresultaat.",
+    "yearsExperience": "jaar ervaring",
+    "goodReview": "goede recensie",
+    "projectsClosed": "projecten afgerond",
+
+    "feedbackTitle": "Alles ging snel",
+    "feedbackAuthor": "Olga, regio Kharkiv",
+    "feedbackText": "We hebben veel tijd besteed aan het vinden van een fatsoenlijk bouwbedrijf om ons huis van twee verdiepingen te renoveren. We hadden al negatieve ervaringen gehad met andere 'professionals'. Vrienden adviseerden ons contact op te nemen met dit bedrijf en we hebben er nooit spijt van gehad. De reparaties werden in slechts 15 dagen voltooid. De arbeiders hebben het schilderwerk snel en efficiënt gedaan. De service overtrof onze verwachtingen.",
+    "feedbackService": "muur reparatie + schilderwerk",
+
+    "feedback1Title": "Professionele raamreparatie",
+    "feedback1Author": "Marcus van der Berg, Amsterdam",
+    "feedback1Text": "Onze oude ramen lieten koude lucht door en hadden volledige renovatie nodig. SWS team verving al het glas en repareerde de kozijnen perfect. Het isolatiewerk was uitstekend - onze energierekening daalde aanzienlijk. Zeer tevreden met de kwaliteit en snelheid van het werk!",
+    "feedback1Service": "raamreparatie + isolatie",
+
+    "feedback2Title": "Geweldige houtbewerkingsvaardigheden",
+    "feedback2Author": "Sophie Janssen, Utrecht",
+    "feedback2Text": "We bestelden maatwerk meubels en houten vloer installatie. Het vakmanschap was uitstekend! Elk detail was perfect, van ontwerpconsultatie tot definitieve installatie. Het team was punctueel, netjes en zeer professioneel. Ons nieuwe interieur ziet er fantastisch uit!",
+    "feedback2Service": "maatwerk meubels + houten vloeren",
+
+    "feedback3Title": "Uw recensie kan hier staan",
+    "feedback3Author": "Uw Naam, Uw Stad",
+    "feedback3Text": "Deel uw ervaring met onze diensten! Vertel ons over de kwaliteit van het werk, professionaliteit van ons team, en hoe we hebben geholpen uw ruimte te transformeren. Uw feedback helpt ons verbeteren en helpt andere klanten geïnformeerde beslissingen te nemen.",
+    "feedback3Service": "uw service ervaring",
+
+    "leaveFeedback": "Laat Uw Feedback Achter",
+    "welcomeTo": "Welkom bij",
+    "heroSpecialist": "– uw raam-, schilder- en timmerwerk-specialist!",
+    "contactUs": "Neem Contact Op",
+    "ourProjects": "Onze projecten",
+    "trust": "Vertrouw op",
+    "the": " de ",
+    "professionals": "Professionals",
+    "aboutUs": "Over ons",
+    "aboutUsDesc": " – Vakmanschap en kwaliteit in bouw en renovatie",
+    "whatOurCustomers": "Wat onze klanten",
+    "sayAboutUs": "over ons zeggen",
+    "productInformation": "Product Informatie",
+    "productInfoText1": "Ons vlaggenschip product combineert geavanceerde technologie met een strak ontwerp. Gebouwd met premium materialen, biedt het ongeëvenaarde prestaties en betrouwbaarheid.",
+    "productInfoText2": "Belangrijke functies omvatten geavanceerde verwerkingsmogelijkheden en een intuïtieve gebruikersinterface ontworpen voor zowel beginners als experts.",
+    "shippingDetails": "Verzending Details",
+    "shippingText1": "Wij bieden wereldwijde verzending via vertrouwde koerierpartners. Standaard levering duurt 3-5 werkdagen, terwijl express verzending zorgt voor levering binnen 1-2 werkdagen.",
+    "shippingText2": "Alle bestellingen worden zorgvuldig verpakt en volledig verzekerd. Volg uw zending in real-time via onze speciale tracking portal.",
+    "returnPolicy": "Retourbeleid",
+    "returnText1": "Wij staan achter onze producten met een uitgebreid 30-dagen retourbeleid. Als u niet volledig tevreden bent, retourneer dan gewoon het artikel in zijn originele staat.",
+    "returnText2": "Ons probleemloos retourproces omvat gratis retourverzending en volledige terugbetalingen verwerkt binnen 48 uur na ontvangst van het geretourneerde artikel.",
+    "windowRepairTag": "Raamreparatie",
+    "glassReplacementTag": "Glasvervanging",
+    "interiorPaintingTag": "Binnenschilderwerk",
+    "exteriorPaintingTag": "Buitenschilderwerk",
+    "facadePaintingTag": "Gevelschildering",
+    "customFurnitureTag": "Maatwerk Meubels",
+    "woodenFloorsTag": "Houten Vloeren",
+    "customDoorsTag": "Maatwerk Deuren",
+    "energySavingTag": "Energiebesparing",
+    "doorInstallationTag": "Deurinstallatie",
+    "flooringWorkTag": "Vloerwerk",
+    "generalRenovationTag": "Algemene Renovatie",
+    "hingesLocksTag": "Scharnieren & Sloten",
+    "maintenancePaintingTag": "Onderhoudsschildering",
+    "reliabilityTag": "Betrouwbaarheid",
+    "paintWallsTitle": "Moet U De Muren Schilderen?",
+    "replaceWindowsTitle": "Moet U Ramen Vervangen?",
+    "customFurnitureTitle": "Heeft U Maatwerk Meubels Nodig?",
+    "faq1Question": "Hoe werkt het met de prijs?",
+    "faq1Answer": "Dat hangt af van de staat en het materiaal. Stuur ons even een paar foto’s of wij komen kort langs om te kijken. Daarna krijg je een duidelijke prijs, zonder verrassingen.",
+    "faq2Question": "Wanneer kunnen jullie beginnen?",
+    "faq2Answer": "Kleine klussen kunnen vaak snel. Grotere plannen we samen in. Na de eerste afspraak geven wij een realistische planning en daar houden wij ons aan.",
+    "faq3Question": "Geven jullie garantie?",
+    "faq3Answer": "Ja. Als er iets niet goed is na de klus, komen wij terug om het op te lossen. Zonder gedoe.",
+    "faq4Question": "Werken jullie met eigen materialen?",
+    "faq4Answer": "Meestal wel, want dan weten wij dat de kwaliteit goed is. Heb je zelf materiaal dat je graag wilt gebruiken? Dan kijken we samen of het geschikt is.",
+    "faq5Question": "Hoe zit het met stof en rommel?",
+    "faq5Answer": "We dekken alles netjes af en gebruiken stofafzuiging waar mogelijk. Na afloop ruimen wij alles op. Geen stress.",
+    "faq6Question": "Kunnen we de klus in delen doen?",
+    "faq6Answer": "Ja hoor. Wij kunnen het werk opdelen in fases of eerst alleen het belangrijkste aanpakken.",
+    "faq7Question": "Kunnen we voorbeelden van jullie werk zien?",
+    "faq7Answer": "Zeker. Wij hebben foto’s, en als je wilt kunnen wij adressen geven waar we eerder werk hebben gedaan.",
+    "faq8Question": "Hoe gaat de betaling?",
+    "faq8Answer": "Voor materialen doen wij meestal een kleine aanbetaling. De rest betalen jullie wanneer wij per fase klaar zijn. Alles blijft transparant."
+  },
+  "Feedback": {
+    "title": "Deel Uw Ervaring",
+    "description": "Wij waarderen uw feedback! Vertel ons over uw ervaring met onze diensten en help andere klanten geïnformeerde beslissingen te nemen.",
+    "fullName": "Volledige Naam",
+    "city": "Stad",
+    "email": "E-mailadres",
+    "service": "Gebruikte Service",
+    "rating": "Algemene Beoordeling",
+    "reviewTitle": "Review Titel",
+    "reviewMessage": "Uw Review",
+    "submitButton": "Feedback Versturen",
+    "submitting": "Versturen...",
+    "selectService": "Selecteer een service...",
+    "namePlaceholder": "Uw volledige naam",
+    "cityPlaceholder": "Uw stad",
+    "emailPlaceholder": "uw.email@voorbeeld.nl",
+    "titlePlaceholder": "Korte titel voor uw review",
+    "messagePlaceholder": "Deel uw ervaring met onze diensten...",
+    "successTitle": "Feedback Verstuurd!",
+    "successMessage": "Bedankt voor uw feedback. We zullen het beoordelen en mogelijk contact met u opnemen.",
+    "errorTitle": "Fout",
+    "errorMessage": "Er is iets misgegaan. Probeer het opnieuw."
+  },
+  "Services": {
+    "title": "Onze Diensten",
+    "description": "Professionele bouw-, renovatie- en houtwerkdiensten",
+    "heading": "Onze Professionele Diensten",
+    "subheading": "Kwaliteit bouw-, renovatie- en houtwerk oplossingen op maat. Van raamreparaties tot complete renovaties, wij leveren perfectie in elk project."
+  },
+  "Contacts": {
+    "contactOptionsTitle": "Contactmogelijkheden",
+    "title": "Neem contact op",
+    "description": "Neem contact op met ons professionele team",
+    "heading": "Neem Contact Op",
+    "subheading": "Klaar om uw ruimte te transformeren? Neem vandaag nog contact op met ons professionele team.",
+    "contactInfo": {
+      "title": "Contactgegevens",
+      "workingHours": {
+        "title": "Werkuren",
+        "weekdays": "Maandag - Vrijdag: 8:00 - 18:00",
+        "saturday": "Zaterdag: 9:00 - 16:00",
+        "sunday": "Zondag: Gesloten"
+      }
+    },
+    "buttons": {
+      "consultation": "Gratis advies",
+      "requestCall": "Bel mij terug"
+    },
+    "socialMedia": {
+      "title": "Volg Ons",
+      "description": "Blijf op de hoogte van onze laatste projecten en updates"
+    },
+    "readyToStart": "Klaar om te beginnen?",
+    "readyToStartDescription": "Neem vandaag nog contact met ons op voor een gratis adviesgesprek. Wij helpen u graag om uw ruimte buitengewoon te maken."
+  },
+  "Vacancies": {
+    "title": "Carrièremogelijkheden",
+    "description": "Word lid van ons professionele bouw- en renovatieteam",
+    "noOpenPositions": "Geen Openstaande Posities",
+    "noOpenPositionsText": "We hebben momenteel geen openstaande posities, maar we zijn altijd op zoek naar getalenteerde professionals om ons team te versterken.",
+    "checkBackLater": "Kom later terug of stuur ons uw CV voor toekomstige mogelijkheden.",
+    "vacancyFormTitle": "Stel Jezelf Voor",
+    "vacancyFormDescription": "Wil je ons team versterken of jouw diensten aanbieden? Vertel ons wie je bent, wat je kunt en waarom jij een aanwinst bent. Wij horen graag van enthousiaste vakmensen!",
+    "vacancyFormNamePlaceholder": "Je volledige naam",
+    "vacancyFormEmailPlaceholder": "E-mailadres",
+    "vacancyFormPhonePlaceholder": "Telefoonnummer",
+    "vacancyFormMessagePlaceholder": "Vertel over je vaardigheden, ervaring en waarom jij goed bij ons past",
+    "vacancyFormSubmit": "Verstuur Je Voorstel",
+    "vacancyFormSuccess": "Bedankt voor je voorstel! Ons team neemt snel contact op.",
+    "vacancyFormError": "Vul alle verplichte velden in."
+  },
+  "Trust": {
+    "title": "Vertrouw de Professionals",
+    "description": "Leer waarom u onze professionele bouw- en renovatiediensten kunt vertrouwen"
+  },
+  "About": {
+    "title": "Over Ons",
+    "description": "Leer meer over ons bedrijf, onze waarden en onze toewijding aan uitzonderlijke bouw- en renovatieservices."
+  },
+  "TermsOfService": {
+    "title": "Servicevoorwaarden",
+    "description": "Bekijk de SWS Servicevoorwaarden voor de juridische voorwaarden die van toepassing zijn op onze professionele bouw- en renovatiediensten."
+  },
+  "PrivacyPolicy": {
+    "title": "Privacybeleid",
+    "description": "Lees het SWS Privacybeleid om te begrijpen hoe wij uw persoonlijke gegevens verzamelen, gebruiken en beschermen in overeenstemming met de AVG."
+  },
+  "CookieConsent": {
+    "title": "Cookie en Privacy Instellingen",
+    "subtitle": "Uw privacy is belangrijk voor ons",
+    "description": "We gebruiken cookies en vergelijkbare technologieën om uw ervaring te verbeteren, sitegebruik te analyseren en inhoud te personaliseren. Door onze site te blijven gebruiken, stemt u in met ons gebruik van cookies zoals beschreven in ons Privacybeleid en Servicevoorwaarden.",
+    "necessary": "Noodzakelijke Cookies",
+    "necessaryDesc": "Vereist voor basisfunctionaliteit van de site",
+    "analytics": "Analytische Cookies",
+    "analyticsDesc": "Helpen ons sitegebruik en prestaties te begrijpen",
+    "privacyPolicy": "Privacybeleid",
+    "termsOfService": "Servicevoorwaarden",
+    "acceptAll": "Alle Cookies Accepteren",
+    "acceptNecessary": "Alleen Noodzakelijke Accepteren",
+    "decline": "Weigeren"
+  },
+  "ContactForm": {
+    "consultationTitle": "Plan een adviesgesprek",
+    "consultationDescription": "Boek een gratis adviesgesprek met onze experts om uw projectbehoeften en mogelijkheden te bespreken.",
+    "generalTitle": "Neem Contact Op",
+    "generalDescription": "Heeft u vragen of wilt u een gesprek starten? We horen graag van u.",
+    "successTitle": "Bericht Succesvol Verzonden!",
+    "successMessage": "Bedankt voor uw bericht. We nemen binnen 24 uur contact met u op.",
+    "sendAnother": "Nog een Bericht Sturen",
+    "contactPhone": "Telefoon",
+    "phoneDescription": "Bel ons direct voor directe hulp",
+    "contactEmail": "E-mail",
+    "emailDescription": "Stuur ons een e-mail, we reageren snel",
+    "contactAddress": "Adres",
+    "addressDescription": "Bezoek ons kantoor of projectlocaties",
+    "nameLabel": "Volledige Naam",
+    "namePlaceholder": "Voer uw volledige naam in",
+    "cityLabel": "Stad",
+    "cityPlaceholder": "Voer uw stad in",
+    "emailLabel": "E-mailadres",
+    "emailPlaceholder": "Voer uw e-mailadres in",
+    "phoneLabel": "Telefoonnummer",
+    "phonePlaceholder": "Voer uw telefoonnummer in",
+    "companyLabel": "Bedrijf",
+    "companyPlaceholder": "Voer uw bedrijfsnaam in (optioneel)",
+    "subjectLabel": "Onderwerp",
+    "subjectPlaceholder": "Waar gaat dit over?",
+    "messageLabel": "Bericht",
+    "messagePlaceholder": "Vertel ons over uw project, behoeften of vragen...",
+    "sendMessage": "Bericht Versturen",
+    "sending": "Versturen..."
+  },
+
+  "ConsultationPage": {
+    "title": "Gratis Advies - SWS",
+    "description": "Plan een gratis adviesgesprek met onze bouwexperts. Bespreek uw projectbehoeften en krijg professioneel advies.",
+    "heading": "Plan Uw Gratis advies",
+    "subheading": "Ontmoet onze experts om uw visie te bespreken, professioneel advies te krijgen en de mogelijkheden voor uw project te verkennen."
+  },
+  "ContactFormPage": {
+    "title": "Neem Contact Op - SWS",
+    "description": "Neem contact op met ons team. Stuur ons een bericht en we reageren zo snel mogelijk.",
+    "heading": "Neem Contact Op",
+    "subheading": "Heeft u een vraag of wilt u uw project bespreken? Stuur ons een bericht en we nemen snel contact met u op."
+  },
+  "Steps": {
+    "title": "Stappen Die We Volgen",
+    "subtitle": "Onze professionele aanpak voor elk project garandeert kwaliteit en klanttevredenheid",
+    "step1Title": "Eerste Consultatie",
+    "step1Description": "We bespreken uw wensen, beoordelen de projectomvang en geven deskundig advies",
+    "step2Title": "Gedetailleerde Planning",
+    "step2Description": "Maken van een uitgebreid plan met tijdlijn, materialen en duidelijke kostenbegroting",
+    "step3Title": "Professionele Uitvoering",
+    "step3Description": "Ons vakkundig team voert het werk nauwkeurig uit met kwalitatieve materialen en bewezen technieken",
+    "step4Title": "Kwaliteitscontrole & Oplevering",
+    "step4Description": "Eindcontrole, kwaliteitsborging en projectoplevering met garantiedocumentatie",
+    "ctaButton": "Vraag Uw Gratis Offerte"
+  },
+  "ModernContactForm": {
+    "title": "Neem Contact Op En Krijg Het",
+    "bestOffer": "Beste Aanbod",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "number": "Telefoonnummer",
+    "chooseService": "Kies Dienst",
+    "selectService": "Selecteer Dienst",
+    "send": "Verzenden",
+    "sending": "Verzenden...",
+    "or": "Of",
+    "useInstagram": "Gebruik Instagram",
+    "stepsTitle": "Stappen die we volgen",
+    "step1Title": "Contact & Advies",
+    "step1Description": "Neem contact op via formulier, telefoon of Instagram. Wij bespreken uw wensen en plannen een gratis locatie bezoek.",
+    "step2Title": "Beoordeling & Offerte",
+    "step2Description": "Onze expert evalueert de projectomvang, neemt metingen en verstrekt een gedetailleerde offerte met tijdlijn.",
+    "step3Title": "Uitvoering Werkzaamheden",
+    "step3Description": "Ons vakkundig team begint het werk met kwalitatieve materialen, houdt het schoon en geeft dagelijkse updates.",
+    "step4Title": "Inspectie & Oplevering",
+    "step4Description": "Eindcontrole, rondleiding door het project met u, en levering van garantiedocumentatie.",
+    "successTitle": "Succes!",
+    "successDesc": "Formulier succesvol verzonden!",
+    "errorTitle": "Fout",
+    "errorDesc": "Er is een fout opgetreden bij het verzenden van het formulier."
+  }
+}

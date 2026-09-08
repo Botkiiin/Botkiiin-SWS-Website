@@ -1,0 +1,408 @@
+{
+  "LanguageDetection": {
+    "title": "Language Suggestion",
+    "description": "We noticed your browser language differs from the current site language. You can switch languages anytime.",
+    "countdown": "Closing in {countdown} seconds",
+    "switchTo": "Switch to"
+  },
+  "Header": {
+    "links": [
+      {
+        "name": "Home",
+        "href": "/"
+      },
+      {
+        "name": "Services",
+        "href": "/services"
+      },
+      {
+        "name": "About",
+        "href": "/about"
+      },
+      {
+        "name": "Trust",
+        "href": "/trust"
+      },
+      {
+        "name": "Vacancies",
+        "href": "/vacancies"
+      }
+    ],
+    "incentive": "Contacts"
+  },
+  "Footer": {
+    "Copyright": "Copyright © {year} {name} All rights reserved.",
+    "PrivacyPolicy": "Privacy Policy",
+    "TermsOfService": "Terms of Service",
+    "Contact": {
+      "title": "Contact Info"
+    },
+    "Links": {
+      "groups": [
+        {
+          "title": "Languages",
+          "links": [
+            {
+              "href": "/en",
+              "name": "English"
+            },
+            {
+              "href": "/nl",
+              "name": "Nederlands"
+            }
+          ]
+        },
+        {
+          "title": "Navigation",
+          "links": [
+            {
+              "href": "/",
+              "name": "Home"
+            },
+            {
+              "href": "/services",
+              "name": "Services"
+            },
+            {
+              "href": "/trust",
+              "name": "Trust"
+            },
+            {
+              "href": "/about",
+              "name": "About"
+            },
+            {
+              "href": "/contacts",
+              "name": "Contacts"
+            },
+            {
+              "href": "/vacancies",
+              "name": "Vacancies"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Home": {
+    "title": "SWS",
+    "tagLine": "Slimme Werkoplossingen & Services",
+    "description": "Are you looking for a reliable and professional construction company in the Netherlands? At Slimme Werkoplossingen & Services, we guarantee quality, durability and craftsmanship.",
+    "our": "Our",
+    "services": "Services",
+    "windowRepairTitle": "Window repair",
+    "windowRepairDescription": "restoration and improvement of window frames and glass.",
+    "paintingTitle": "Painting",
+    "paintingDescription": "professional interior and exterior painting for a fresh look.",
+    "technicalPainting": "Technical painting of houses and enterprises",
+    "facadePainting": "Painting of the facade",
+    "woodworkingTitle": "Woodworking",
+    "woodworkingDescription": "individual solutions in carpentry and repair of wooden structures.",
+    "learnMore": "Learn more",
+    "viewAllServices": "View All Services",
+    "mainServices": "Main Services",
+    "keyFeatures": "Key Features",
+    "workProcess": "Work Process",
+    "getConsultation": "Get Consultation",
+    "windowFrameRepair": "Window frame repair and restoration",
+    "glassReplacement": "Glass replacement and installation",
+    "sealingWork": "Sealing and weatherproofing",
+    "interiorPainting": "Interior painting and decoration",
+    "customFurniture": "Custom furniture manufacturing",
+    "doorInstallation": "Door installation and repair",
+    "flooringWork": "Flooring installation and restoration",
+    "qualityMaterials": "High-quality materials",
+    "fastService": "Fast and reliable service",
+    "warranty": "Work warranty provided",
+    "professionalTeam": "Professional experienced team",
+    "ecoFriendlyPaints": "Eco-friendly paints",
+    "colorConsultation": "Color consultation",
+    "surfacePreparation": "Professional surface preparation",
+    "longLastingFinish": "Long-lasting finish",
+    "sustainableMaterials": "Sustainable wood materials",
+    "doorInstallationTag": "Door Installation",
+    "flooringWorkTag": "Flooring Work",
+    "generalRenovationTag": "General Renovation",
+    "customDesign": "Custom design solutions",
+    "precisionWork": "Precision craftsmanship",
+    "durability": "Durable construction",
+    "initialInspection": "Initial inspection and assessment",
+    "quotationPreparation": "Quotation preparation",
+    "workExecution": "Professional work execution",
+    "finalCheck": "Final quality check",
+    "surfaceAssessment": "Surface condition assessment",
+    "colorSelection": "Color selection and consultation",
+    "preparation": "Surface preparation",
+    "painting": "Professional painting application",
+    "qualityControl": "Quality control and finishing",
+    "designConsultation": "Design consultation and planning",
+    "materialSelection": "Material selection",
+    "crafting": "Precision crafting",
+    "installation": "Professional installation",
+    "finishing": "Final finishing and inspection",
+    "detailedServicesTitle": "Detailed Information About Our Services",
+
+    "aboutText1": "At Slimme Werkoplossingen & Services we specialise in quality construction and renovation work. With many years of experience and a passion for craftsmanship, we offer sustainable and aesthetic solutions for both private and business clients.",
+    "aboutText2": "We stand for reliability, precision and customer satisfaction. Whether it's a small repair or a large-scale project, we guarantee perfect execution and a high-quality end result.",
+    "yearsExperience": "years of experience",
+    "goodReview": "good review",
+    "projectsClosed": "projects closed",
+
+    "feedbackTitle": "everything was quick",
+    "feedbackAuthor": "Olga, Kharkiv region",
+    "feedbackText": "We spent a lot of time trying to find a decent building company to renovate our two-storey house. We had already had negative experiences with other 'professionals'. Friends advised us to contact this company and we have never regretted it. The repairs were completed in just 15 days. The workers did the painting quickly and efficiently. The service exceeded our expectations.",
+    "feedbackService": "wall repair + painting",
+
+    "feedback1Title": "Professional window repair",
+    "feedback1Author": "Marcus van der Berg, Amsterdam",
+    "feedback1Text": "Our old windows were letting in cold air and needed complete renovation. SWS team replaced all the glass and repaired the frames perfectly. The insulation work was excellent - our energy bills dropped significantly. Very satisfied with the quality and speed of work!",
+    "feedback1Service": "window repair + insulation",
+
+    "feedback2Title": "Amazing woodworking skills",
+    "feedback2Author": "Sophie Janssen, Utrecht",
+    "feedback2Text": "We ordered custom furniture and wooden floor installation. The craftsmanship was outstanding! Every detail was perfect, from design consultation to final installation. The team was punctual, clean, and very professional. Our new interior looks fantastic!",
+    "feedback2Service": "custom furniture + wooden floors",
+
+    "feedback3Title": "Your review could be here",
+    "feedback3Author": "Your Name, Your City",
+    "feedback3Text": "Share your experience with our services! Tell us about the quality of work, professionalism of our team, and how we helped transform your space. Your feedback helps us improve and helps other clients make informed decisions.",
+    "feedback3Service": "your service experience",
+
+    "leaveFeedback": "Leave Your Feedback",
+    "welcomeTo": "Welcome to",
+    "heroSpecialist": "– your window, painting and woodworking specialist!",
+    "contactUs": "Contact us",
+    "ourProjects": "Our projects",
+    "trust": "Trust",
+    "the": " The ",
+    "professionals": "Professionals",
+    "aboutUs": "About Us",
+    "aboutUsDesc": " – Craftsmanship and quality in construction and renovation",
+    "whatOurCustomers": "What Our Customers",
+    "sayAboutUs": "Say About Us",
+    "productInformation": "Product Information",
+    "productInfoText1": "Our flagship product combines cutting-edge technology with sleek design. Built with premium materials, it offers unparalleled performance and reliability.",
+    "productInfoText2": "Key features include advanced processing capabilities, and an intuitive user interface designed for both beginners and experts.",
+    "shippingDetails": "Shipping Details",
+    "shippingText1": "We offer worldwide shipping through trusted courier partners. Standard delivery takes 3-5 business days, while express shipping ensures delivery within 1-2 business days.",
+    "shippingText2": "All orders are carefully packaged and fully insured. Track your shipment in real-time through our dedicated tracking portal.",
+    "returnPolicy": "Return Policy",
+    "returnText1": "We stand behind our products with a comprehensive 30-day return policy. If you're not completely satisfied, simply return the item in its original condition.",
+    "returnText2": "Our hassle-free return process includes free return shipping and full refunds processed within 48 hours of receiving the returned item.",
+    "windowRepairTag": "Window Repair",
+    "glassReplacementTag": "Glass Replacement",
+    "interiorPaintingTag": "Interior Painting",
+    "exteriorPaintingTag": "Exterior Painting",
+    "facadePaintingTag": "Facade Painting",
+    "customFurnitureTag": "Custom Furniture",
+    "woodenFloorsTag": "Wooden Floors",
+    "customDoorsTag": "Custom Doors",
+    "energySavingTag": "Energy Saving",
+    "hingesLocksTag": "Hinges & Locks",
+    "maintenancePaintingTag": "Maintenance Painting",
+    "reliabilityTag": "Reliability",
+    "paintWallsTitle": "Need To Paint The Walls?",
+    "replaceWindowsTitle": "Need To Replace Windows?",
+    "customFurnitureTitle": "Need Custom-Made Furniture?",
+    "faq1Question": "How does the pricing work?",
+    "faq1Answer": "It depends on the condition and the materials. Send us a few photos or we can stop by for a quick look. After that, you’ll get a clear price with no surprises.",
+    "faq2Question": "When can you start?",
+    "faq2Answer": "Small jobs can often start quickly. Bigger projects we plan together. After the first visit, we’ll give you a realistic timeline and stick to it.",
+    "faq3Question": "Do you offer a guarantee?",
+    "faq3Answer": "Yes. If something isn’t right after the job is done, we’ll come back and fix it. No hassle.",
+    "faq4Question": "Do you work with your own materials?",
+    "faq4Answer": "Usually yes, because then we know the quality is good. If you have your own materials you want to use, we can check together if they’re suitable.",
+    "faq5Question": "What about dust and mess?",
+    "faq5Answer": "We cover everything properly and use dust extraction where possible. After the job, we clean up everything. No worries.",
+    "faq6Question": "Can we split the work into parts?",
+    "faq6Answer": "Sure. We can divide the project into phases or start with the most important part first.",
+    "faq7Question": "Can we see examples of your work?",
+    "faq7Answer": "Absolutely. We have photos, and if you want, we can share addresses where we’ve worked before.",
+    "faq8Question": "How does the payment work?",
+    "faq8Answer": "There’s usually a small deposit for materials. The rest is paid after each phase is completed by us. Everything stays transparent."
+  },
+  "Feedback": {
+    "title": "Share Your Experience",
+    "description": "We value your feedback! Tell us about your experience with our services and help other clients make informed decisions.",
+    "fullName": "Full Name",
+    "city": "City",
+    "email": "Email Address",
+    "service": "Service Used",
+    "rating": "Overall Rating",
+    "reviewTitle": "Review Title",
+    "reviewMessage": "Your Review",
+    "submitButton": "Submit Feedback",
+    "submitting": "Submitting...",
+    "selectService": "Select a service...",
+    "namePlaceholder": "Your full name",
+    "cityPlaceholder": "Your city",
+    "emailPlaceholder": "your.email@example.com",
+    "titlePlaceholder": "Brief title for your review",
+    "messagePlaceholder": "Share your experience with our services...",
+    "successTitle": "Feedback Submitted!",
+    "successMessage": "Thank you for your feedback. We will review it and may contact you.",
+    "errorTitle": "Error",
+    "errorMessage": "Something went wrong. Please try again."
+  },
+  "Services": {
+    "title": "Our Services",
+    "description": "Professional construction, renovation, and woodworking services",
+    "heading": "Our Professional Services",
+    "subheading": "Quality construction, renovation, and woodworking solutions tailored to your needs. From window repairs to complete renovations, we deliver excellence in every project."
+  },
+  "Contacts": {
+    "contactOptionsTitle": "Contact Options",
+    "title": "Contact Us",
+    "description": "Get in touch with our professional team",
+    "heading": "Contact Us",
+    "subheading": "Ready to transform your space? Get in touch with our professional team today.",
+    "contactInfo": {
+      "title": "Contact Information",
+      "workingHours": {
+        "title": "Working Hours",
+        "weekdays": "Monday - Friday: 8:00 - 18:00",
+        "saturday": "Saturday: 9:00 - 16:00",
+        "sunday": "Sunday: Closed"
+      }
+    },
+    "buttons": {
+      "consultation": "Free Consultation",
+      "requestCall": "Request a call"
+    },
+    "socialMedia": {
+      "title": "Follow Us",
+      "description": "Stay connected with our latest projects and updates"
+    },
+    "readyToStart": "Ready to Start?",
+    "readyToStartDescription": "Contact us today for a free consultation and let us help transform your space into something extraordinary."
+  },
+  "Vacancies": {
+    "title": "Career Opportunities",
+    "description": "Join our professional construction and renovation team",
+    "noOpenPositions": "No Open Positions",
+    "noOpenPositionsText": "We don't have any open positions at the moment, but we're always looking for talented professionals to join our team.",
+    "checkBackLater": "Please check back later or send us your CV for future opportunities.",
+    "vacancyFormTitle": "Pitch Your Talent",
+    "vacancyFormDescription": "Want to join our team or offer your skills? Send us your story, experience, and what makes you unique. We love hearing from motivated professionals!",
+    "vacancyFormNamePlaceholder": "Your full name",
+    "vacancyFormEmailPlaceholder": "Email address",
+    "vacancyFormPhonePlaceholder": "Phone number",
+    "vacancyFormMessagePlaceholder": "Tell us about your skills, experience, and why you’d be a great fit",
+    "vacancyFormSubmit": "Send Your Proposal",
+    "vacancyFormSuccess": "Thank you for your proposal! Our team will get in touch soon.",
+    "vacancyFormError": "Please fill in all required fields."
+  },
+  "Trust": {
+    "title": "Trust the Professionals",
+    "description": "Learn why you can trust our professional construction and renovation services"
+  },
+  "About": {
+    "title": "About Us",
+    "description": "Learn more about our company, values, and commitment to exceptional construction and renovation services."
+  },
+  "TermsOfService": {
+    "title": "Terms of Service",
+    "description": "Review the SWS Terms of Service for the legal conditions governing our professional construction and renovation services."
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "description": "Read the SWS Privacy Policy to understand how we collect, use, and protect your personal data in compliance with GDPR."
+  },
+  "CookieConsent": {
+    "title": "Cookie and Privacy Settings",
+    "subtitle": "Your privacy matters to us",
+    "description": "We use cookies and similar technologies to improve your experience, analyze site usage, and personalize content. By continuing to use our site, you agree to our use of cookies as described in our Privacy Policy and Terms of Service.",
+    "necessary": "Necessary Cookies",
+    "necessaryDesc": "Required for basic site functionality",
+    "analytics": "Analytics Cookies",
+    "analyticsDesc": "Help us understand site usage and performance",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "acceptAll": "Accept All Cookies",
+    "acceptNecessary": "Accept Necessary Only",
+    "decline": "Decline"
+  },
+  "ContactForm": {
+    "consultationTitle": "Schedule a Consultation",
+    "consultationDescription": "Book a free consultation with our experts to discuss your project needs and possibilities.",
+    "generalTitle": "Contact Us",
+    "generalDescription": "Have questions or want to start a conversation? We'd love to hear from you.",
+    "successTitle": "Message Sent Successfully!",
+    "successMessage": "Thank you for your message. We'll get back to you within 24 hours.",
+    "sendAnother": "Send Another Message",
+    "contactPhone": "Phone",
+    "phoneDescription": "Call us directly for immediate assistance",
+    "contactEmail": "Email",
+    "emailDescription": "Send us an email, we respond quickly",
+    "contactAddress": "Address",
+    "addressDescription": "Visit our office or project locations",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "cityLabel": "City",
+    "cityPlaceholder": "Enter your city",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Enter your email address",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "companyLabel": "Company",
+    "companyPlaceholder": "Enter your company name (optional)",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "What is this about?",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us about your project, needs, or questions...",
+    "sendMessage": "Send Message",
+    "sending": "Sending..."
+  },
+
+  "ConsultationPage": {
+    "title": "Free Consultation - SWS Construction",
+    "description": "Schedule a free consultation with our construction experts. Discuss your project needs and get professional advice.",
+    "heading": "Schedule Your Free Consultation",
+    "subheading": "Meet with our experts to discuss your vision, get professional advice, and explore the possibilities for your project."
+  },
+  "ContactFormPage": {
+    "title": "Contact Us - SWS Construction",
+    "description": "Get in touch with our team. Send us a message and we'll respond as soon as possible.",
+    "heading": "Contact Us",
+    "subheading": "Have a question or want to discuss your project? Send us a message and we'll get back to you promptly."
+  },
+  "Steps": {
+    "title": "Steps We Follow",
+    "subtitle": "Our professional approach to every project ensures quality and customer satisfaction",
+    "step1Title": "Initial Consultation",
+    "step1Description": "We discuss your needs, assess the project scope, and provide expert recommendations",
+    "step2Title": "Detailed Planning",
+    "step2Description": "Creating a comprehensive plan with timeline, materials, and clear cost estimation",
+    "step3Title": "Professional Execution",
+    "step3Description": "Our skilled team executes the work with precision, using quality materials and proven techniques",
+    "step4Title": "Quality Check & Handover",
+    "step4Description": "Final inspection, quality control, and project handover with warranty documentation",
+    "ctaButton": "Get Your Free Quote"
+  },
+  "ModernContactForm": {
+    "title": "Contact Us And Get The",
+    "bestOffer": "Best Offer",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "number": "Phone Number",
+    "chooseService": "Choose Service",
+    "selectService": "Select Service",
+    "send": "Send",
+    "sending": "Sending...",
+    "or": "Or",
+    "useInstagram": "Use Instagram",
+    "stepsTitle": "Steps, We Follow:",
+    "step1Title": "Contact & Consultation",
+    "step1Description": "Reach out via form, phone, or Instagram. We discuss your needs and schedule a free on-site consultation.",
+    "step2Title": "Assessment & Quote",
+    "step2Description": "Our expert evaluates the project scope, takes measurements, and provides a detailed quote with timeline.",
+    "step3Title": "Work Execution",
+    "step3Description": "Our skilled team begins work using quality materials, maintaining cleanliness and providing daily updates.",
+    "step4Title": "Inspection & Handover",
+    "step4Description": "Final quality check, project walkthrough with you, and delivery of warranty documentation.",
+    "successTitle": "Success!",
+    "successDesc": "Form sent successfully!",
+    "errorTitle": "Error",
+    "errorDesc": "There was an error sending the form."
+  }
+}
