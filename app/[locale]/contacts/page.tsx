@@ -111,6 +111,18 @@ export default async function ContactsPage({ params }: { params: Params }) {
                     <p className="text-muted-foreground">{contactsConfig.address}</p>
                   </div>
                 </a>
+                <div className="mt-4 overflow-hidden rounded-xl border border-gray-700">
+<iframe
+src={`https://www.google.com/maps?q=${encodeURIComponent(contactsConfig.address)}&output=embed`}
+width="100%"
+height="300"
+style={{ border: 0 }}
+loading="lazy"
+allowFullScreen
+referrerPolicy="no-referrer-when-downgrade"
+title="Google Maps"
+/>
+</div>
               </div>
             </div>
           </div>
