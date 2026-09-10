@@ -261,7 +261,7 @@
       "workingHours": {
         "title": "Werkuren",
         "weekdays": "Maandag - Vrijdag: 7:00 - 17:00",
-        "sunday": "Zaterdag-Zondag: Gesloten",
+        "sunday": "Zaterdag-Zondag: Gesloten"
       }
     },
     "buttons": {
