@@ -18,6 +18,7 @@ import { contactsConfig, getPhoneLink, getEmailLink } from '@/config/contacts';
 export default function Footer() {
   const t = useTranslations('Home');
   const tFooter = useTranslations('Footer');
+  const tContacts = useTranslations('Contacts');
   const pathname = usePathname();
 
   // Автоматично визначаємо, чи потрібно ховати контактну інформацію
@@ -163,6 +164,16 @@ export default function Footer() {
                         </svg>
                         <span className="text-gray-300">{contactsConfig.address}</span>
                       </div>
+                 <div className="flex items-start gap-2">
+<span className="text-gray-400">🕐</span>
+<div className="text-gray-300">
+<p className="font-semibold text-white">
+{tContacts('contactInfo.workingHours.title')}
+</p>
+<p>{tContacts('contactInfo.workingHours.weekdays')}</p>
+<p>{tContacts('contactInfo.workingHours.sunday')}</p>
+</div>
+</div>
                     </div>
                   </div>
                 )}
