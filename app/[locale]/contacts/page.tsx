@@ -166,7 +166,7 @@ export default async function ContactsPage({ params }: { params: Params }) {
                 </Link>
               )}
             </div>
-            {/* <Hours locale={locale} /> */}
+            {<Hours locale={locale}/}
             {/* Additional Info Card Bottom Left */}
             <div className="bg-gradient-to-r from-primary/10 to-primary/5 p-6 rounded-xl border border-primary/20 mt-8">
               <h4 className="font-semibold text-foreground mb-2">{t('readyToStart')}</h4>
