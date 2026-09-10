@@ -169,7 +169,7 @@
     "welcomeTo": "SWS",
     "heroSpecialist": "– uw partner voor bouw en renovatie!",
     "contactUs": "Vraag een offerte aan",
-    "ourProjects": "Bekijk onze projecten"/,
+    "ourProjects": "Bekijk onze projecten",
     "trust": "Vertrouw op",
     "the": " de ",
     "professionals": "Professionals",
@@ -261,7 +261,7 @@
       "workingHours": {
         "title": "Werkuren",
         "weekdays": "Maandag - Vrijdag: 7:00 - 17:00",
-        "sunday": "Zaterdag-Zondag: Gesloten"
+        "sunday": "Zaterdag-Zondag: Gesloten",
       }
     },
     "buttons": {
