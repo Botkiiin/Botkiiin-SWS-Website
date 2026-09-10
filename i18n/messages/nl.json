@@ -87,7 +87,7 @@
   "Home": {
     "title": "SWS",
     "tagLine": "Slimme Werkoplossingen & Services",
-    "description": "Bent u op zoek naar een betrouwbaar en professioneel bouwbedrijf in Nederland? Bij Slimme Werkoplossingen & Services garanderen wij kwaliteit, duurzaamheid en vakmanschap.",
+    "description": "Professionele bouw- en renovatiewerkzaamheden voor woningen en bedrijven. Van badkamers en keukens tot complete renovaties, schilderwerk, ramen, deuren en houtconstructies.",
     "our": "Onze",
     "services": "Diensten",
     "windowRepairTitle": "Raamreparatie",
@@ -166,10 +166,10 @@
     "feedback3Service": "uw service ervaring",
 
     "leaveFeedback": "Laat Uw Feedback Achter",
-    "welcomeTo": "Welkom bij",
-    "heroSpecialist": "– uw raam-, schilder- en timmerwerk-specialist!",
-    "contactUs": "Neem Contact Op",
-    "ourProjects": "Onze projecten",
+    "welcomeTo": "SWS",
+    "heroSpecialist": "– uw partner voor bouw en renovatie!",
+    "contactUs": "Vraag een offerte aan",
+    "ourProjects": "Bekijk onze projecten"
     "trust": "Vertrouw op",
     "the": " de ",
     "professionals": "Professionals",
@@ -260,9 +260,8 @@
       "title": "Contactgegevens",
       "workingHours": {
         "title": "Werkuren",
-        "weekdays": "Maandag - Vrijdag: 8:00 - 18:00",
-        "saturday": "Zaterdag: 9:00 - 16:00",
-        "sunday": "Zondag: Gesloten"
+        "weekdays": "Maandag - Vrijdag: 7:00 - 17:00",
+        "sunday": "Zaterdag-Zondag: Gesloten"
       }
     },
     "buttons": {
