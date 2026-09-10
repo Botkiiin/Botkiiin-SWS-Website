@@ -54,14 +54,31 @@ export const Hero = () => {
             </Link>
           </Button>
           <Button
-            className="h-11 rounded-xl py-2 transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/70"
-            variant="ghost"
-            asChild>
-            <GradientLink
-              text={t('ourProjects')}
-              href={siteConfig.socialLinks?.instagram || 'https://instagram.com/'}
-            />
-          </Button>
+className="h-11 rounded-xl py-2 transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/70"
+variant="ghost"
+asChild
+>
+<GradientLink
+text={t('ourProjects')}
+href={siteConfig.socialLinks?.instagram || 'https://instagram.com/'}
+/>
+</Button>
+
+<Button
+className="h-11 rounded-xl py-2 transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/70"
+variant="ghost"
+asChild
+>
+<Link
+href="https://wa.me/31687402492"
+target="_blank"
+rel="noopener noreferrer"
+className="flex items-center gap-2"
+>
+<MessageCircleIcon className="w-4 h-4" />
+WhatsApp
+</Link>
+</Button>
         </div>
       </div>
     </section>
