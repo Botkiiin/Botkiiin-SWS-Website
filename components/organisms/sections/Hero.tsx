@@ -81,6 +81,15 @@ WhatsApp
 </Button>
         </div>
       </div>
+ <a
+href="https://wa.me/31687402492"
+target="_blank"
+rel="noopener noreferrer"
+className="fixed bottom-6 right-6 z-50 flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-white font-semibold shadow-lg transition-transform hover:scale-105"
+>
+<MessageCircleIcon className="w-5 h-5" />
+WhatsApp
+</a>
     </section>
   );
 };
