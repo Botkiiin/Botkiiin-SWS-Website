@@ -12,7 +12,6 @@ export default async function Hours({ locale }: { locale: string }) {
       </h3>
       <div className="space-y-2 shadow bg-card p-4 rounded-lg">
         <p className="text-muted-foreground">{t('contactInfo.workingHours.weekdays')}</p>
-        <p className="text-muted-foreground">{t('contactInfo.workingHours.saturday')}</p>
         <p className="text-muted-foreground">{t('contactInfo.workingHours.sunday')}</p>
       </div>
     </div>
