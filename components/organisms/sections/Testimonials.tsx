@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
-import FeedbackCard from '@/components/molecules/FeedbackCard';
 import {
   Carousel,
   CarouselContent,
@@ -22,15 +21,14 @@ export function Testimonials({ titleClassName = '' }: TestimonialsProps) {
   const [isHovered, setIsHovered] = useState(false);
   const [progress, setProgress] = useState(0);
 
-  // Автоматична прокрутка каруселі з паузою на ховер та прогрес-баром
   useEffect(() => {
     if (!api || isHovered) {
       setProgress(0);
       return;
     }
 
-    const duration = 4000; // 4 секунди
-    const interval = 50; // Оновлення кожні 50ms
+    const duration = 4000;
+    const interval = 50;
     let elapsed = 0;
 
     const progressInterval = setInterval(() => {
@@ -48,43 +46,55 @@ export function Testimonials({ titleClassName = '' }: TestimonialsProps) {
     return () => clearInterval(progressInterval);
   }, [api, isHovered, current]);
 
-  // Оновлення поточного слайда та загальної кількості
   useEffect(() => {
     if (!api) return;
 
     setCount(api.scrollSnapList().length);
     setCurrent(api.selectedScrollSnap() + 1);
 
-    api.on('select', () => {
+    const onSelect = () => {
       setCurrent(api.selectedScrollSnap() + 1);
-    });
+    };
+
+    api.on('select', onSelect);
+
+    return () => {
+      api.off('select', onSelect);
+    };
   }, [api]);
 
-  // Дані для відгуків з різними послугами та локаціями в Нідерландах
   const testimonials = [
     {
       id: 1,
-      titleKey: 'feedback1Title',
-      authorKey: 'feedback1Author',
-      textKey: 'feedback1Text',
-      serviceKey: 'feedback1Service',
-      rating: 5,
+      author: 'Milo',
+      source: 'Klantreactie via WhatsApp',
+      service: 'Uitgevoerd werk',
+      text:
+        'Hallo Stas, ik heb de factuur zojuist voldaan. Bedankt voor al het goede werk. We zijn erg blij met het resultaat. Wellicht zien we elkaar weer in de toekomst.',
     },
     {
       id: 2,
-      titleKey: 'feedback2Title',
-      authorKey: 'feedback2Author',
-      textKey: 'feedback2Text',
-      serviceKey: 'feedback2Service',
-      rating: 5,
+      author: 'Jeroen Letterie',
+      source: 'Klantreactie via e-mail',
+      service: 'Houtrotherstel',
+      text:
+        'Goedemiddag,\n\nTer volledigheid heb ik een opleveringsdocument gemaakt voor het houtrotherstel tpv de begane grond van het Rosaklooster.\n\nDaarin heb ik vastgelegd aan welke kozijnen herstel heeft plaatsgevonden, door zowel De Vries als SWS Klussenbedrijf.\n\nHiermee hoop ik een duidelijk overzicht te hebben gemaakt, dat in de toekomst bruikbaar is voor garantie en voor eventuele communicatie met Monumentenzorg.\n\nAls er verder vragen zijn, dan hoor ik het graag.\n\nMet vriendelijke groet,\nJeroen',
     },
     {
       id: 3,
-      titleKey: 'feedback3Title',
-      authorKey: 'feedback3Author',
-      textKey: 'feedback3Text',
-      serviceKey: 'feedback3Service',
-      rating: 0,
+      author: 'Anny en Dick Poel',
+      source: 'Klantreactie via e-mail',
+      service: 'Bouw- en renovatiewerk',
+      text:
+        'Beste Lucas,\n\nWe willen je bedanken voor je wetk, de werkzaamheden en begeleiding.apport.Het was voor.onsc een intensief en complex proces ernaartoe.\n\nWe zijn blij met het resultaat en de werk van de mensen die het uitgevoerd hebben van SWS klusbedrijf.Misschien kan je hun naam doorgeven naar andere klanten.\n\nHet is een opluchting om door het proces heen te komen, en verder te kunnen. .\n\nEen ding aub bevestigen dat wij Anny en Dick Poel alles  hebben betaald . Op een paar facturen stond 87C of 83 C . Dat was onjuist\n\nMet vriendelijke groeten,\nAnny en Dick Poel',
+    },
+    {
+      id: 4,
+      author: 'Dick',
+      source: 'Klantreactie via e-mail',
+      service: 'Geluidsmeting / KGI',
+      text:
+        'Stas, Hierbij het eindrapport van het KGI.\nDe geluidsmeting is heel positief en veel beter dan verwacht.\nDankzij Sacha en Sergei.\n\nHeel erg goed.\n\nDick',
     },
   ];
 
@@ -92,7 +102,8 @@ export function Testimonials({ titleClassName = '' }: TestimonialsProps) {
     <section className="px-3 w-full py-8">
       <h2
         id="testimonials"
-        className={`text-3xl font-extrabold tracking-tight mb-8 ${titleClassName}`}>
+        className={`text-3xl font-extrabold tracking-tight mb-8 ${titleClassName}`}
+      >
         {t('whatOurCustomers')}
         <span>{t('the')}</span>
         <span className="text-primary">{t('sayAboutUs')}</span>
@@ -102,8 +113,7 @@ export function Testimonials({ titleClassName = '' }: TestimonialsProps) {
         setApi={setApi}
         opts={{
           align: 'start',
-          loop: true, // Безкінечна прокрутка
-          // Адаптивність: різна кількість слайдів на різних екранах
+          loop: true,
           breakpoints: {
             '(min-width: 0px)': { slidesToScroll: 1 },
             '(min-width: 768px)': { slidesToScroll: 2 },
@@ -112,23 +122,37 @@ export function Testimonials({ titleClassName = '' }: TestimonialsProps) {
         }}
         className="w-full relative select-none"
         onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}>
+        onMouseLeave={() => setIsHovered(false)}
+      >
         <CarouselContent className="-ml-4">
           {testimonials.map((testimonial) => (
-            <CarouselItem key={testimonial.id} className="pl-4 md:basis-1/2 lg:basis-1/3">
-              <FeedbackCard
-                titleKey={testimonial.titleKey}
-                authorKey={testimonial.authorKey}
-                textKey={testimonial.textKey}
-                serviceKey={testimonial.serviceKey}
-                rating={testimonial.rating}
-                isPlaceholder={testimonial.id === 3}
-              />
+            <CarouselItem
+              key={testimonial.id}
+              className="pl-4 md:basis-1/2 lg:basis-1/3"
+            >
+              <article className="h-full rounded-2xl border bg-card p-6 shadow-sm flex flex-col">
+                <div className="text-primary text-4xl font-serif leading-none mb-4">
+                  “
+                </div>
+
+                <p className="text-base leading-7 whitespace-pre-line flex-1">
+                  {testimonial.text}
+                </p>
+
+                <div className="mt-6 pt-4 border-t">
+                  <p className="font-bold text-lg">{testimonial.author}</p>
+                  <p className="text-sm text-primary mt-1">
+                    {testimonial.service}
+                  </p>
+                  <p className="text-xs text-muted-foreground mt-1">
+                    {testimonial.source}
+                  </p>
+                </div>
+              </article>
             </CarouselItem>
           ))}
         </CarouselContent>
 
-        {/* Прогрес-бар автопрокрутки */}
         <div className="flex justify-center mt-4">
           <div className="w-32 h-1 bg-gray-200 rounded-full overflow-hidden">
             {!isHovered && (
@@ -140,7 +164,6 @@ export function Testimonials({ titleClassName = '' }: TestimonialsProps) {
           </div>
         </div>
 
-        {/* Індикатори (точки) */}
         <div className="flex justify-center mt-4 space-x-2">
           {Array.from({ length: count }).map((_, index) => (
             <button
