@@ -1,4 +1,3 @@
-import { readdir } from 'node:fs/promises';
 import path from 'node:path';
 import Image from 'next/image';
 
@@ -13,48 +12,57 @@ const remaining = photos.slice(12);
 
 const gallery = (items: string[]) =>
 items.map((photo) => (
-<figure
+<a
 key={photo}
-className="group relative aspect-[4/3] overflow-hidden rounded-2xl bg-[#e8e4dc]"
+href={`/Portfolio/${encodeURIComponent(photo)}`}
+target="_blank"
+rel="noopener noreferrer"
+className="group block overflow-hidden rounded-lg border border-border bg-background shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
 >
+<div className="relative aspect-[4/3] overflow-hidden">
 <Image
 src={`/Portfolio/${photo}`}
 alt="SWS renovation project"
 fill
-sizes="(max-width: 768px) 100vw, (max-width: 1280px) 33vw, 25vw"
-className="object-cover transition duration-700 group-hover:scale-105"
+sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+className="object-cover transition-transform duration-500 group-hover:scale-105"
 />
+</div>
 
-<div className="absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/10" />
-</figure>
+<div className="px-4 py-3">
+<span className="text-sm font-semibold text-primary">
+View project
+</span>
+</div>
+</a>
 ));
 
 return (
-<section id="portfolio" className="bg-[#18241f] py-24 text-white sm:py-32">
-<div className="mx-auto max-w-7xl px-5 sm:px-8">
-
-<div className="mb-12 max-w-2xl">
-<p className="mb-3 text-xs font-bold uppercase tracking-[0.24em] text-[#c9a27e]">
-SWS · Portfolio
-</p>
-
-<h2 className="font-serif text-4xl tracking-tight sm:text-5xl">
-Our work
+<section
+id="portfolio"
+className="container mx-auto max-w-full px-4 py-8 sm:px-6 lg:px-8 mt-10"
+>
+<div className="mb-6 sm:mb-8">
+<h2 className="text-2xl sm:text-3xl lg:text-4xl w-full font-extrabold tracking-tight text-left">
+Our{' '}
+<span className="bg-gradient-to-r from-primary to-[#0851a3] bg-clip-text text-transparent">
+Work
+</span>
 </h2>
 
-<p className="mt-4 text-base leading-7 text-white/65">
-A selection of completed restoration, renovation and finishing
+<p className="mt-2 max-w-2xl text-sm sm:text-base text-muted-foreground">
+A selection of our completed restoration, renovation and finishing
 projects.
 </p>
 </div>
 
-<div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
 {gallery(featured)}
 </div>
 
 {remaining.length > 0 && (
 <details className="group mt-8">
-<summary className="cursor-pointer list-none rounded-full border border-white/20 px-6 py-3 text-center text-sm font-semibold transition hover:bg-white/10">
+<summary className="mx-auto flex w-full max-w-md cursor-pointer list-none items-center justify-center rounded-md border border-primary px-6 py-3 text-sm font-semibold text-primary transition hover:bg-primary hover:text-white">
 <span className="group-open:hidden">
 View all projects
 </span>
@@ -64,14 +72,11 @@ Show less
 </span>
 </summary>
 
-<div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+<div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
 {gallery(remaining)}
 </div>
 </details>
 )}
-
-</div>
 </section>
 );
 }
-
