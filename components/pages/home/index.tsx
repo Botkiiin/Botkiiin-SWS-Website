@@ -4,7 +4,7 @@ import { About } from '../../organisms/sections/About';
 import ModernContactForm from '../../organisms/forms/ModernContactForm';
 import { Testimonials } from '../../organisms/sections/Testimonials';
 import { contactsConfig } from '@/config/contacts';
-import { PremiumServices } from '../../organisms/sections/PremiumServices';
+import { Services } from '../../organisms/sections/Services';
 import { PortfolioGallery } from '../../organisms/sections/PortfolioGallery';
 import { BeforeAfter } from '../../organisms/sections/BeforeAfter';
 
@@ -13,7 +13,7 @@ export default async function HomeComponent() {
     <>
       <Hero />
 
-      <PremiumServices />
+      <Services isHomePage asGrid showTitle />
 
       <BeforeAfter />
 
