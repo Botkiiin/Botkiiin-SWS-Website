@@ -9,8 +9,7 @@ const photos = (await readdir(directory)).filter((file) =>
 /\.(jpg|jpeg|png|webp)$/i.test(file)
 );
 
-const featured = photos.slice(0, 12);
-const remaining = photos.slice(12);
+const featured = photos.slice(0, 3);
 
 const gallery = (items: string[]) =>
 items.map((photo) => (
