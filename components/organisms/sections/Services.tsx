@@ -70,7 +70,6 @@ nl: [
 ],
 },
 images: [
-images: [
 '/services/woodworking/1.jpeg',
 ],],
 },
