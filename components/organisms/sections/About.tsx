@@ -24,76 +24,58 @@ interface AboutProps {
 
 interface AutoPlayCarouselContentProps {
   children: React.ReactNode;
-  interval?: number; // Затримка в мс
-  loop?: boolean;
+  interval?: number;
 }
 
 const AutoPlayCarouselContent = ({
   children,
   interval = 4000,
-  loop = true,
 }: AutoPlayCarouselContentProps) => {
   const [api, setApi] = React.useState<CarouselApi>();
-  const timeoutRef = React.useRef<NodeJS.Timeout | null>(null);
+  const timeoutRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // Функція для скидання таймауту
-  const resetAutoplay = React.useCallback(() => {
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current);
-      timeoutRef.current = null;
-    }
-  }, []);
-
-  // Основна логіка автоперемикання
   React.useEffect(() => {
     if (!api) return;
 
-    resetAutoplay();
-
-    const scrollNext = () => {
-      if (api.canScrollNext()) {
-        api.scrollNext();
-      } else if (loop) {
-        // Якщо зациклення увімкнене і ми в кінці, повертаємося до початку
-        api.scrollTo(0);
+    const resetAutoplay = () => {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
       }
     };
 
     const play = () => {
-      scrollNext();
+      api.scrollNext();
       timeoutRef.current = setTimeout(play, interval);
     };
 
-    // Запускаємо відтворення
     timeoutRef.current = setTimeout(play, interval);
 
-    // Логіка для зупинки при взаємодії користувача
     const onSelect = () => {
       resetAutoplay();
-      // Перезапускаємо через деякий час після взаємодії
       timeoutRef.current = setTimeout(play, interval);
     };
 
-    // Прив'язка обробника подій
     api.on('select', onSelect);
 
-    // Очищення при розмонтуванні компонента
     return () => {
       resetAutoplay();
       api.off('select', onSelect);
     };
-  }, [api, interval, loop, resetAutoplay]);
+  }, [api, interval]);
 
   return (
     <Carousel
-      setApi={setApi} // Передаємо setApi, щоб отримати інстанс каруселі
-      opts={{ loop: loop, dragFree: false }}
-      className="cursor-grab">
+      setApi={setApi}
+      opts={{
+        loop: true,
+        dragFree: false,
+      }}
+      className="cursor-grab"
+    >
       <CarouselContent>{children}</CarouselContent>
     </Carousel>
   );
 };
-
 // =========================================================================
 // 2. ОСНОВНИЙ КОМПОНЕНТ ABOUT
 // =========================================================================
