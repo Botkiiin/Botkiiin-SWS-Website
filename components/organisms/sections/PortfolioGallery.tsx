@@ -1,7 +1,7 @@
 import { readdir } from 'node:fs/promises';
 import path from 'node:path';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/i18n/routing';
 export async function PortfolioGallery() {
 const directory = path.join(process.cwd(), 'public', 'Portfolio');
 
