@@ -70,7 +70,7 @@ nl: [
 ],
 },
 images: [
-'/services/Wood-Restoration/f209bf67-2b93-4c70-8a4b-ab6d27c73ff6.jpg',
+/services/woodworking/1.jpeg
 ],
 },
 
