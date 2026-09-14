@@ -71,9 +71,8 @@ nl: [
 },
 images: [
 '/services/woodworking/1.jpeg',
-],],
+],
 },
-
 {
 id: 'bathrooms',
 title: {
