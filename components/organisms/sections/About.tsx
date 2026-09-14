@@ -160,8 +160,8 @@ export function About({ hideTitle = false, noPadding = false, titleClassName = '
         </div>
 
         {/* Project carousel slider з ручним автоперемиканням */}
-        <AutoPlayCarouselContent interval={4000} loop={true}>
-          {images.map((img, idx) => (
+<AutoPlayCarouselContent interval={4000}>       
+  {images.map((img, idx) => (
             <CarouselItem key={img.src + idx} className="relative h-[400px] lg:h-[500px]">
               <Image
                 src={img.src}
