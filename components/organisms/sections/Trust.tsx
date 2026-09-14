@@ -29,9 +29,18 @@ const faqItems = [
 ];
 
 const serviceBlocks = [
-  { titleKey: 'paintWallsTitle', imageUrl: '/paint-min.jpg' },
-  { titleKey: 'replaceWindowsTitle', imageUrl: '/replace-min.jpg' },
-  { titleKey: 'customFurnitureTitle', imageUrl: '/custom-min.jpg' },
+  {
+    titleKey: 'woodworkingTitle',
+    imageUrl: '/services/woodworking/1.jpeg',
+  },
+  {
+    titleKey: 'bathroomTitle',
+    imageUrl: '/services/Bathrooms/0363b908-c029-4b40-89b5-c2780ec96e1f.jpg',
+  },
+  {
+    titleKey: 'kitchenTitle',
+    imageUrl: '/services/Kitchens/01a97bd4-a7cf-4f11-8d09-afe276e67e1f.jpg',
+  },
 ];
 
 export const Trust = ({
