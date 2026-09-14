@@ -1,7 +1,7 @@
 import { readdir } from 'node:fs/promises';
 import path from 'node:path';
 import Image from 'next/image';
-
+import Link from 'next/link';
 export async function PortfolioGallery() {
 const directory = path.join(process.cwd(), 'public', 'Portfolio');
 
@@ -68,22 +68,14 @@ projects.
 {gallery(featured)}
 </div>
 
-{remaining.length > 0 && (
-<details className="group mt-8">
-<summary className="mx-auto flex w-full max-w-md cursor-pointer list-none items-center justify-center rounded-lg border-2 border-primary px-6 py-3 text-sm font-semibold text-primary transition hover:bg-primary hover:text-primary-foreground">
-<span className="group-open:hidden">
-View all projects
-</span>
-
-<span className="hidden group-open:inline">
-Show less
-</span>
-</summary>
-
-<div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
-{gallery(remaining)}
+<div className="mt-8">
+  <Link
+    href="/projects"
+    className="mx-auto flex w-full max-w-md items-center justify-center rounded-lg border-2 border-primary px-6 py-3 text-sm font-semibold text-primary transition hover:bg-primary hover:text-primary-foreground"
+  >
+    View all projects
+  </Link>
 </div>
-</details>
 )}
 </section>
 );
