@@ -74,9 +74,8 @@ projects.
     className="mx-auto flex w-full max-w-md items-center justify-center rounded-lg border-2 border-primary px-6 py-3 text-sm font-semibold text-primary transition hover:bg-primary hover:text-primary-foreground"
   >
     View all projects
-  </Link>
+      </Link>
 </div>
-)}
 </section>
 );
 }
