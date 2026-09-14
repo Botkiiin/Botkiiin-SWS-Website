@@ -6,6 +6,7 @@ import { siteConfig } from '@/config/site';
 import { useTranslations } from 'next-intl';
 import { MessageCircleIcon } from 'lucide-react';
 import GradientLink from '@/components/shared/GradientLink';
+import { AppointmentDialog } from '@/components/AppointmentDialog';
 
 export const Hero = () => {
   const t = useTranslations('Home');
@@ -53,6 +54,7 @@ export const Hero = () => {
               {t('contactUs')}
             </Link>
           </Button>
+          <AppointmentDialog />
           <Button
 className="h-11 rounded-xl py-2 transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/70"
 variant="ghost"
