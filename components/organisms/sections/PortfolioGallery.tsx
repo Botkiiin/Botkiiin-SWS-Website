@@ -9,7 +9,11 @@ const photos = (await readdir(directory)).filter((file) =>
 /\.(jpg|jpeg|png|webp)$/i.test(file)
 );
 
-const featured = photos.slice(0, 3);
+const featured = [
+'01a97bd4-a7cf-4f11-8d09-afe276e67e1f.jpg',
+'ae2a92c8-82bf-45bb-999d-9121358ed7a6.jpg',
+'05f48165-8df0-45a2-aed5-2a87f521ba38.jpg',
+];
 
 const gallery = (items: string[]) =>
 items.map((photo) => (
