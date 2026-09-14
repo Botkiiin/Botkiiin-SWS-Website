@@ -32,34 +32,16 @@ const AutoPlayCarouselContent = ({
   interval = 4000,
 }: AutoPlayCarouselContentProps) => {
   const [api, setApi] = React.useState<CarouselApi>();
-  const timeoutRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
 
   React.useEffect(() => {
     if (!api) return;
 
-    const resetAutoplay = () => {
-      if (timeoutRef.current) {
-        clearTimeout(timeoutRef.current);
-      }
-    };
-
-    const play = () => {
+    const timer = setInterval(() => {
       api.scrollNext();
-      timeoutRef.current = setTimeout(play, interval);
-    };
-
-    timeoutRef.current = setTimeout(play, interval);
-
-    const onSelect = () => {
-      resetAutoplay();
-      timeoutRef.current = setTimeout(play, interval);
-    };
-
-    api.on('select', onSelect);
+    }, interval);
 
     return () => {
-      resetAutoplay();
-      api.off('select', onSelect);
+      clearInterval(timer);
     };
   }, [api, interval]);
 
@@ -76,6 +58,8 @@ const AutoPlayCarouselContent = ({
     </Carousel>
   );
 };
+
+
 // =========================================================================
 // 2. ОСНОВНИЙ КОМПОНЕНТ ABOUT
 // =========================================================================
