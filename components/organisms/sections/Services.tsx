@@ -70,8 +70,9 @@ nl: [
 ],
 },
 images: [
-/services/woodworking/1.jpeg
-],
+images: [
+'/services/woodworking/1.jpeg',
+],],
 },
 
 {
