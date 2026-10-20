@@ -78,7 +78,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale || DEFAULT_LOCALE} suppressHydrationWarning>
-     <head>
+    <head>
   <Script
     id="meta-pixel"
     strategy="afterInteractive"
